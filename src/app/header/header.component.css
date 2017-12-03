@@ -1,0 +1,8 @@
+.filler {
+    flex: 1 1 auto;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.mat-menu-item .mat-icon {
+  margin-right: 5px;
+}

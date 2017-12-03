@@ -1,3 +1,20 @@
-<p>
-  header works!
-</p>
+<mat-toolbar color="primary">
+  <span>
+    <button type="button" (click)="sidebar.toggle()" mat-icon-button>
+      <mat-icon>menu</mat-icon>
+    </button>
+  </span>
+  <span class="filler">
+    <h1>Title</h1>
+  </span>
+  <span>
+    <button type="button" mat-icon-button [matMenuTriggerFor]="loginMenu">
+      <mat-icon>person</mat-icon>
+    </button>
+  </span>
+
+  <mat-menu #loginMenu="matMenu">
+    <button mat-menu-item> <mat-icon>vpn_key</mat-icon> Change Password </button>
+    <button mat-menu-item (click)="onLogout()"><mat-icon>keyboard_backspace</mat-icon> Logout </button>
+  </mat-menu>
+</mat-toolbar>
