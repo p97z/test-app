@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DragulaModule } from 'ng2-dragula';
 
 import { AppMaterialModule } from '../app/app-material/app-material.module';
 import { AppRoutingModule } from '../app/app-routing/app-routing.module';
@@ -26,7 +27,7 @@ import { Page4Component } from './page4/page4.component';
   ],
   imports: [
     BrowserModule, BrowserAnimationsModule,
-    AppMaterialModule, AppRoutingModule
+    AppMaterialModule, AppRoutingModule, DragulaModule
   ],
   providers: [SidebarService],
   bootstrap: [AppComponent]

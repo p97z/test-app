@@ -1,6 +1,8 @@
 $material-design-icons-font-path: "~material-design-icons-iconfont/dist/fonts/";
 @import "~material-design-icons-iconfont/dist/material-design-icons";
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import '../../node_modules/dragula/dist/dragula.css';
+
 // @import '~@angular/material/theming';
 // @include mat-core();
 //$primary: mat-palette($mat-green, 900, 200, 900);

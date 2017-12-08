@@ -1,3 +1,10 @@
-<p>
-  page1 works!
-</p>
+<mat-accordion>
+  <mat-expansion-panel [dragula]='"first-bag"' *ngFor='let group of groups'>
+    <mat-expansion-panel-header>
+      {{group.name}}
+    </mat-expansion-panel-header>
+    <div *ngFor='let item of group.items'>
+      <div>{{item.name}}</div>
+    </div>
+  </mat-expansion-panel>
+</mat-accordion>
