@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FormsModule } from '@angular/forms';
 import { DragulaModule } from 'ng2-dragula';
 
 import { AppMaterialModule } from '../app/app-material/app-material.module';
@@ -14,7 +15,6 @@ import { Page2Component } from './page2/page2.component';
 import { Page3Component } from './page3/page3.component';
 import { Page4Component } from './page4/page4.component';
 
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +26,7 @@ import { Page4Component } from './page4/page4.component';
     Page4Component
   ],
   imports: [
-    BrowserModule, BrowserAnimationsModule,
+    BrowserModule, BrowserAnimationsModule, FormsModule,
     AppMaterialModule, AppRoutingModule, DragulaModule
   ],
   providers: [SidebarService],

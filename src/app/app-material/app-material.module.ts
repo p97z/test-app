@@ -4,7 +4,7 @@ import { CommonModule } from '@angular/common';
 import {
   MatSidenavModule, MatToolbarModule, MatButtonModule, MatIconModule,
   MatListModule, MatInputModule, MatCardModule, MatMenuModule, 
-  MatProgressSpinnerModule, MatTabsModule, MatExpansionModule
+  MatProgressSpinnerModule, MatTabsModule, MatExpansionModule, MatGridListModule
 } from '@angular/material';
 
 /**
@@ -18,7 +18,7 @@ import {
   exports: [
     MatSidenavModule,  MatToolbarModule, MatButtonModule, MatIconModule, 
     MatListModule, MatInputModule, MatCardModule, MatMenuModule, 
-    MatProgressSpinnerModule, MatTabsModule, MatExpansionModule
+    MatProgressSpinnerModule, MatTabsModule, MatExpansionModule, MatGridListModule
   ],
   declarations: []
 })
