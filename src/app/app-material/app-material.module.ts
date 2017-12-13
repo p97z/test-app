@@ -7,6 +7,7 @@ import {
   MatProgressSpinnerModule, MatTabsModule, MatExpansionModule, MatGridListModule
 } from '@angular/material';
 
+import { FlexLayoutModule } from "@angular/flex-layout";
 /**
  * Module used to wrap the material component and modules...
  * This is so we don't have to keep adding stuff to the app.module
@@ -18,7 +19,8 @@ import {
   exports: [
     MatSidenavModule,  MatToolbarModule, MatButtonModule, MatIconModule, 
     MatListModule, MatInputModule, MatCardModule, MatMenuModule, 
-    MatProgressSpinnerModule, MatTabsModule, MatExpansionModule, MatGridListModule
+    MatProgressSpinnerModule, MatTabsModule, MatExpansionModule, MatGridListModule,
+    FlexLayoutModule
   ],
   declarations: []
 })
