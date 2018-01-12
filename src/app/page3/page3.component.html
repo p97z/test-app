@@ -1,3 +1,17 @@
-<p>
-  page3 works!
-</p>
+<mat-expansion-panel expanded='true' hideToggle="true" (click)="click()">
+  <mat-expansion-panel-header [ngClass]="tickets-container-header">
+    <mat-panel-title>
+      <div fxLayout="row" fxFill>
+        <div fxLayout fxFlex>
+        <div fxFlex="20%" fxFlexOrder="1">Icon</div>
+
+        <div fxFlex="70%" fxFlexOrder="2">Center</div>
+        <div class="pull-right" fxFlex="10%" fxFlexOrder="3">
+            <mat-icon>{{icon ? 'keyboard_arrow_down' : 'more_vert' }}</mat-icon>
+        </div>
+      </div>
+      </div>
+    </mat-panel-title>
+
+  </mat-expansion-panel-header>
+</mat-expansion-panel>

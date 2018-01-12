@@ -8,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class Page3Component implements OnInit {
 
   constructor() { }
+  icon: boolean = false;
 
+  click() {
+    this.icon = !this.icon;
+  }
   ngOnInit() {
   }
 

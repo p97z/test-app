@@ -2,8 +2,19 @@ html, body, material-app, mat-sidenav-container, .main-content {
     margin: 0px;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     overflow: hidden;
   }
+=======
+    overflow: auto;
+    color: white;
+    background: #59624d !important; /* Old browsers */
+    background: -moz-linear-gradient(top, #59624d 2%, #000000 66%) !important; /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #59624d 2%,#000000 66%) !important; /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #59624d 2%,#000000 66%) !important; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#59624d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */    
+}
+>>>>>>> a39c17735e450c1d2187dcfc5c070a340af3ba7d
 .app-body {
     box-sizing: border-box;
     overflow: hidden;
