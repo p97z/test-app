@@ -3,13 +3,13 @@ $material-design-icons-font-path: "~material-design-icons-iconfont/dist/fonts/";
 @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import '../../node_modules/dragula/dist/dragula.css';
 
-// @import '~@angular/material/theming';
-// @include mat-core();
-//$primary: mat-palette($mat-green, 900, 200, 900);
-//$accent: mat-palette($mat-light-blue, A400);
+ @import '~@angular/material/theming';
+ @include mat-core();
+$primary: mat-palette($mat-green, 900, 200, 900);
+$accent: mat-palette($mat-light-blue, A400);
 
-//$default-theme: mat-dark-theme($primary, $accent);
-//@include angular-material-theme($default-theme);
+$default-theme: mat-dark-theme($primary, $accent);
+@include angular-material-theme($default-theme);
 
 html, body, app-root, .app-frame {
     overflow: hidden;
